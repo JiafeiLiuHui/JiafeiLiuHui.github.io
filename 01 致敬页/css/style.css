@@ -1,0 +1,29 @@
+body{padding-top:20px;}
+.jumbotron h1,.jumbotron h2,.jumbotron .img{text-align:center;}
+.jumbotron h2{font-family:"楷体";font-style:italic;}
+.jumbotron .img{background-color:white;margin-top:20px;padding:20px 20px 0 20px;}
+.jumbotron .img p{text-align:left;font-size:16px;line-hight:16px;padding:10px;text-indent:2em;}
+.jumbotron .career{width: 75%;margin: 50px auto 0 auto;}
+.jumbotron .career h3,.jumbotron .images h3,.jumbotron .table-kaka h3,.container .famous h3{font-family:"楷体";}
+.jumbotron .career strong{margin-right: 20px;}
+.jumbotron .career ul li{margin-bottom: 15px;}
+{font-family:"楷体";}
+.jumbotron .images img{border-radius:8px;}
+.jumbotron .images .col-sm-4,.jumbotron .images .col-xs-6{margin-bottom: 20px; }
+.jumbotron .famous blockquote{text-indent: 2em;border-right: 5px solid rgba(255,0,0,0.7);}
+.jumbotron .famous blockquote p{font-size: 16px;}
+.jumbotron .footer{font-size:16px;width: 80%;margin: 0 auto;}
+@media (max-width: 768px) {
+    .jumbotron .img p{font-size: 13px;}
+    .jumbotron .img{padding:20px 10px 0;}
+    .jumbotron .career h3,.jumbotron .images h3,.jumbotron .table-kaka h3,.container .famous h3{
+        font-size: 18px;
+    }
+    .jumbotron .career{width: 100%;}
+    .jumbotron .career ul li{
+        font-size:12px;}
+    .jumbotron .famous blockquote p{
+        font-size:14px;}
+    .jumbotron .footer{
+        font-size:14px;}
+}
