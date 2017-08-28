@@ -1,0 +1,11 @@
+看别人的源码，发现写的更简洁，主要用的都是bootstrap自带的样式，自己写的样式只有一条body {
+  margin-top: 60px;
+}
+太牛逼了。
+
+我自己没用到的样式，估计记一下，以后可能会用到：
+text-center    就是text-align:center
+thumbnail      一般应用到图片以及div布局上面，效果是给图片留白，添加圆角边框
+caption        caption{padding:9px;color:#333} 一般应用在div或p中或是thumbnail中
+col-md-8 col-md-offset-2     内容占8份 左右两边占2份 就相当于内容居中了
+cite         blockquote里面的footer可以给引用的来源名称包裹进cite标签 cite可以加title属性
