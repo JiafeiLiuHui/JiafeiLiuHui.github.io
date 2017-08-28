@@ -1,0 +1,2 @@
+textarea::-webkit-input-placeholder{color:red;}
+ÏêÇéÇë¼û£ºhttp://jingyan.baidu.com/article/09ea3ede0f1ae2c0afde397e.html

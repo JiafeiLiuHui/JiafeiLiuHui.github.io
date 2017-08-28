@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>个人作品集</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Font-Awesome-master/css/font-awesome.min.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+        body{padding-top: 71px;
+        background-color: #888888;
+        position: relative;}
+        .container{
+            padding: 0 120px;
+        }
+        nav .nav{
+            margin-top: 10px;
+        }
+        nav .navbar-toggle{
+            margin-top: 18px;
+        }
+        .container .well{
+            padding: 30px 50px;
+            border-radius: 0;
+            margin-bottom: 0;
+            background-color: #AAAAAA;
+            border: 0 none;
+        }
+        .container .well .col-lg-9{
+            padding-top: 30px;
+            font-size: 16px;
+            font-family: "宋体";
+            text-indent: 2em;
+        }
+        .container .composition,.container .contact{
+            background-color:#eee;
+        }
+        .composition h2,.contact h2{
+            font-family: "楷体";
+            margin-bottom: 30px;
+        }
+         .hr{width: 100%;height: 3px;background-color: #888888;margin-bottom: 30px;text-align: center;}
+         .hr .space{width: 20%;margin: 0 auto;background-color: #EEEEEE;height: 3px;}
+         .hr span{margin-top: -13px; color:#888888}
+        .container .contact form label{width: 100%;position: relative;}
+        .container .contact form label span{position: absolute;left:0;top:15px;font-size:14px;opacity: 0;color:mediumvioletred;}
+        .container .contact form input,textarea{border: 0 none;background-color: transparent;font-size:30px;line-height: 2;border-bottom: 1px solid #BBBBBB;margin-bottom: 20px;width: 100%;}
+        input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{font-weight: normal;color:#A9A9A9}
+        .container .contact form input:focus,textarea:focus{outline: 0 none;}
+        .container .contact .text{
+            font-size:20px;color:#757575;margin-bottom: 20px;}
+        .container .contact .text1{margin-top: 20px;}
+        .container .contact .text3{margin-top: 250px;}
+        .container .contact button{color:#757575;}
+        .footer{width: 100%;background-color:#AAAAAA;color:#fff;}
+        .footer h3{font-weight: bold;margin-bottom: 30px;}
+        .footer p{font-size: 18px;padding-left: 20px;}
+        .footer p .fa-lg:hover{color:#72287C;}
+        .footer .author{color:#72287C;}
+        .footer p .circle{display:inline-block;background-color: #aaa;border:2px solid #fff;width: 45px;height: 45px;text-align: center;line-height: 45px;border-radius: 50%;cursor: pointer;margin-right: 7px;}
+        @media(max-width: 992px){
+            .container{
+                padding: 0 50px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .navbar-nav{clear: both;}
+            .container{
+                padding: 0;
+            }
+            nav .container{
+                padding: 0 30px;
+            }
+            .container .contact .text3{
+                margin-top: 0;
+            }
+            .container .contact button{
+                margin-bottom: 50px;
+            }
+
+
+        }
+        @media(min-width: 768px){
+            .navbar-nav{float: right;}
+        }
+    </style>
+
+</head>
+
+<body data-spy="scroll" data-target="#navbar-example">
+<nav class="navbar navbar-fixed-top navbar-inverse" id="navbar-example">
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#"><img class="img-responsive" src="images/1.png" width="50" alt=""></a>
+        </div>
+        <div class="collapse navbar-collapse" id="nav">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#info">个人信息</a></li>
+                <li><a href="#compo">作品展示</a></li>
+                <li><a href="#cont">与我联系</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container" id="info">
+    <div class="well">
+        <div class="row">
+            <div class="col-lg-9 col-md-12">
+                <p>秦始皇是出生于赵国都城邯郸（今邯郸），并在此度过了少年时期。前247年，13岁时即王位。 前238年，22岁时，在故都雍城举行了国君成人加冕仪式，开始“亲理朝政”，除掉吕不韦、嫪毐等人。</p>
+                <p>秦始皇认为自己的功劳胜过之前的三皇五帝，采用三皇之“皇”、五帝之“帝”构成“皇帝”的称号，</p>
+            </div>
+            <div class="col-lg-3 col-md-12 text-center">
+                <img class="img-circle" src="images/3.jpg" width="200px" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="well composition">
+        <h2 class="text-center text-info" id="compo">作品展示</h2>
+        <div class="row">
+            <div class="col-lg-6 col-lg-offset-3 col-xs-6 col-xs-offset-3">
+                <div class="hr"><div class="space"><span class="fa fa-modx fa-2x"></span></div></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6 col-md-12">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="images/b1.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="images/b2.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="images/b3.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="images/b4.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="images/b5.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="images/b6.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="well contact">
+        <h2 class="text-center text-info" id="cont">与我联系</h2>
+        <div class="row">
+            <div class="col-lg-6 col-lg-offset-3 col-xs-6 col-xs-offset-3">
+                <div class="hr"><div class="space"><span class="fa fa-wechat fa-2x"></span></div></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-12">
+                <form>
+                    <p><label><input type="text" placeholder="Name"></label></p>
+                    <p><label><input type="text" placeholder="Email Address"></label></p>
+                    <p><label><input type="text" placeholder="Phone Number"></label></p>
+                    <textarea name="" id="" cols="30" rows="4" placeholder="Message"></textarea>
+                    <button type="submit" class="btn btn-default btn-lg">Send</button>
+                </form>
+            </div>
+            <div class="col-lg-5 col-lg-offset-1 col-md-12">
+                <p class="text text1">Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, tips on how to solve your sudoku, random questions about the universe and the meaning of life, or even if only for some nice Fika here in stunning Toronto... just feel free to drop me a line anytime.</p>
+                <p class="text">I promise to reply A.S.A.P.</p>
+                <p class="text text3">Note: No spam/soliciting pour moi, merci :)</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="container">
+        <div class="well">
+            <div class="row">
+                <div class="col-lg-4 col-xs-6">
+                    <h3>ABOUT THIS PAGE</h3>
+                    <p>Made with <span class="fa fa-coffee"></span> and <span class="fa fa-music"></span><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;by<span class="author"> Jiafeiliuhui</span>.</p>
+
+                </div>
+                <div class="col-lg-4 col-lg-offset-4 col-xs-6">
+                    <h3>AROUND THE WEB</h3>
+                    <p style="padding: 0">
+                        <span class="circle">
+                            <i class="fa fa-free-code-camp fa-lg"></i>
+                        </span>
+                        <span class="circle">
+                            <i class="fa fa-twitter fa-lg"></i>
+                        </span>
+                        <span class="circle">
+                            <i class="fa fa-github fa-lg"></i>
+                        </span>
+                        <span class="circle">
+                            <i class="fa fa-skype fa-lg"></i>
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+<script>
+    $(function () {
+        $(".contact form input").keyup(function () {
+            var length=$(this).siblings("span").length;
+            if(length==0){
+            var pl=$(this).attr("placeholder");
+            var span="<span>"+pl+"</span>";
+            var $span=$(span);
+            $span.appendTo($(this).parent());
+            $span.animate({top:"-20px",opacity:1},300);}
+            var value=$(this).val();
+            if(value==""){
+                $(this).siblings("span").animate({top:"15px",opacity:0},function () {
+                    $(this).remove();
+                })
+            }
+        }).blur(function () {
+            $(".contact form span").css("color","#aaa");
+        }).focus(function () {
+            $(this).siblings("span").css("color","mediumvioletred");
+        })
+
+        $(".fa-lg").hover(function () {
+            $(this).parent().css("background-color","#fff");
+        },function () {
+            $(this).parent().css("background-color","#aaa");
+        })
+
+        $("[href='#cont']").click(function () {
+            var height=$("#cont").offset().top;
+            $("body").animate({scrollTop:height},500);
+        })
+        $("[href='#info']").click(function () {
+            var height=$("#info").offset().top;
+            $("body").animate({scrollTop:height},500);
+        })
+        $("[href='#compo']").click(function () {
+            var height=$("#compo").offset().top;
+            $("body").animate({scrollTop:height},500);
+        })
+    })
+</script>
+
+
+</html>
