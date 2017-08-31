@@ -1,0 +1,171 @@
+@charset "utf-8";
+
+body{background:url(../images/bg1.jpg) no-repeat top center #8E8E8E;padding:40px 70px 0;background-attachment:fixed;}
+
+#myCarousel a{position: absolute;background:url(../images/flexslider/bg_direction_nav.png) no-repeat;width: 56px;height: 54px;background-size: 200%;}
+.carousel-control{top:45%;}
+#myCarousel .carousel-control.right{background-position: -54px 0;}
+
+.box{width: 100%;max-width: 940px;margin: 0 auto;}
+.box .logo{display:none;background: #DDDDDD;text-align: center;padding: 20px 0;}
+
+.header{width: 100%;max-width: 940px;position: relative;}
+.header .logo-img{position: absolute;top:20px;left:20px;width: 28.3%;}
+.header .banner{position: absolute;bottom: 60px;left: 40px;width: 50%;background: rgba(255,255,255,0.3);padding: 10px 0 20px 40px;color:#5B5E5F;}
+.header .banner h2{margin-bottom: 10px;}
+.header nav{position: absolute;bottom:-28px;left:56px;background: url(../images/menu-bg.jpg) repeat-x;padding: 15px 0 15px 50px;width: 89%;}
+.header nav>ul>li{float:left;padding: 0 15px;}
+.header nav ul li a{color:#888;}
+.header nav ul li.active a{color:#fff;}
+.dropdown-menu{margin-top: 17px;background: rgba(0,0,0,0.8);}
+.dropdown-menu .divider{background-color:#888; }
+.header nav ul li .dropdown-menu a{color:#888;}
+.header nav ul li .dropdown-menu a:hover{background: none;color:#fff;}
+.header .select{display:none;position: absolute;bottom:0;width: 100%;background:url(../images/menu-bg.jpg) repeat-x; padding: 10px 0;text-align: center;}
+.about .select,.rooms .select{bottom:-53px;}
+.header .select select{width: 80%;padding: 5px 0;}
+
+.content{background: url(../images/content-bg.gif);}
+
+
+.welcome{width:75%;margin: 120px auto 0;padding: 0 0 50px;text-align: center;}
+.welcome h2{color:#000;line-height: 1.5;}
+.welcome h2 .text{font-size: 30px;font-weight: normal;}
+.welcome h2 .line{border-top:1px solid #ccc;width: 130px;display: inline-block;margin-top: 25px;}
+.welcome p{font-size:15px;margin-bottom: 15px;padding-top: 30px;}
+.welcome button{background: url(../images/gray-button.jpg) repeat-x;padding: 7px 25px;border-radius: 5px;box-shadow: 1px 1px 3px #000;}
+.welcome i{margin: 0 20px;font-size: 16px;font-weight: bold;}
+
+.content>.about,.content .rooms{padding-bottom: 20px;margin-top: 75px;}
+.about h2 .line{width: 180px;}
+.rooms h2 .line{width: 160px;}
+.about-text{padding: 0 35px;margin-bottom: 50px;}
+.about-text .row h3{height: 60px;line-height: 60px;font-size:20px;color:#000;font-style: italic;font-weight: bold;font-family: Arial;}
+.about-text p,.about-text ul{font-size:13px;margin-bottom: 20px;}
+.about-text ul{padding-left: 30px;}
+.about-text ul li{list-style: square;}
+
+.rooms-content{padding: 0 35px;}
+.rooms-content h3{height: 40px;font-size:20px;color:#000;font-style: italic;font-weight: bold;font-family: Arial;}
+.rooms-content p{font-size: 14px;margin-bottom: 20px;}
+.rooms-content button{padding: 3px 17px;border-radius: 5px;box-shadow: 1px 1px 3px #000;font-size: 13px;margin-right: 10px;}
+.rooms-content button:first-child{background: url(../images/gray-button.jpg) repeat-x;}
+.rooms-content button:last-child{background: url(../images/steel-blue-button.png) repeat-x;color:#fff;}
+.rooms-content .row{margin-bottom: 50px;}
+
+
+.image-zone-1,.image-zone-2{padding: 0 35px;text-align: center;margin-bottom: 50px;}
+.image-zone-1{margin-bottom: 50px;}
+.row{width: 100%;margin: 0;}
+.image-zone-1 .row h3{height: 60px;line-height: 60px;text-align: center;font-size:18px;color:#000;font-style: italic;font-weight: bold;font-family: Arial;}
+.image-zone-1 .row h3 .line{display: inline-block;width: 37px; border-top: 1px solid #ccc; }
+.image-zone-1 .row h3 .small{width: 27px;}
+.image-zone-1 .row h3 .text{vertical-align: -8%;}
+.image-zone-1 img,.image-zone-2 img{width:100%;}
+.image-zone-1 .row p,.image-zone-2 .row p{font-size:13px;}
+.image-zone-2 .row p{margin-top: 20px;}
+.img-parent{position: relative;display: inline-block;height: auto;}
+.read{position: absolute;top:0;left:0;text-align: center;padding:30% 0 20%;background: #fff;opacity: 0.5;width: 100%;z-index: 5;cursor: pointer;}
+.read img{width: 19px;height: 25px;}
+.img-parent i{position: absolute;width: 15px;height: 15px;right: 0;top:0;background: #333;color:#fff;text-align: center;line-height: 13px;cursor: pointer;z-index: 1;}
+
+.quote{margin: 0 51px 70px;padding: 30px 35px 25px 80px;background: #fff;border-top:1px solid #ccc;border-bottom:1px solid #ccc;}
+.quote h3{background: url(../images/quote.png) no-repeat;padding: 20px 90px 0 50px;font-size:20px;font-family: Arial;line-height: 1.5;font-style: italic;margin-bottom: 20px;}
+.quote p{text-align: right;padding-right: 40px;color:#333;font-size: 15px;}
+
+.foot{background: #eee;padding: 30px 35px 20px;}
+.foot p{color:#333;font-size:12px;margin-bottom: 20px;font-family: Arial;}
+.foot .grey{color:#666}
+.foot .black{color:#333;}
+.foot .margin-20{margin-bottom:20px;}
+.foot h3{height: 53px;line-height: 53px;font-size:16px;font-weight: bold;color:#444;font-style:italic;font-family: Arial;margin-bottom: 15px;}
+.foot h3 .text{vertical-align: -8%;}
+.foot h3 .line{display: inline-block;width: 30%;border-top:1px solid #ccc;}
+.foot .margin-10{margin-right: 10px;}
+.foot .foot-img{margin-bottom: 20px;}
+.foot .foot-img p{margin: 0;}
+.foot .foot-img2 img{margin: 0 9px 10px 0;}
+.foot .foot-img2 p{text-align: right;padding-right: 10px;}
+
+footer{background: #333;height: 45px;}
+
+@media (min-width: 940px) and (max-width: 1036px){
+    .header .banner h2{font-size: 18px;}
+    .s2-hide{display: none;}
+    .image-zone-1 .row p,.image-zone-2 .row p{margin-bottom: 20px;}
+
+}
+@media (min-width: 768px) and (max-width: 940px){
+    .header .banner h2{font-size: 18px;}
+    .s1-hide{display: none;}
+    .s2-hide{display: none;}
+    .welcome h2 .line{display:none;}
+    .about h2 .line{display:block;width: 120px;}
+    .rooms h2 .line{display:block;width: 100px;}
+    .welcome button{display: block;width: auto;margin: 0 auto 20px;}
+    .image-zone-1 .row p,.image-zone-2 .row p{margin-bottom: 20px;}
+}
+@media(min-width: 480px) and (max-width: 768px){
+    .carousel-control{top:40%;}
+    #myCarousel a{width: 28px;height: 27px;background-size: 57px auto;}
+    #myCarousel .carousel-control.right{background-position: -27px;}
+    .header .banner{display: none;}
+    .header nav{display: none;}
+    .header .select{display:block;}
+    .welcome{width: 90%;}
+    .welcome h2 .line,.rooms h2 .line{display:none;}
+    .about h2 .line{display:block;width: 20px;}
+    .welcome button{display: block;width: auto;margin: 0 auto 20px;}
+    .content>.about,.content>.rooms{margin-top: 100px;}
+    .rooms-content .row{text-align: center;}
+    .rooms-content img{display: inline-block;}
+    .rooms-content h3{margin-top: 20px;}
+    .s1-hide{display: none;}
+    .s2-hide{display: none;}
+    .image-zone-1,.image-zone-2{padding: 0;}
+    .image-zone-1 .row p,.image-zone-2 .row p{margin-bottom: 20px;}
+    .quote{padding: 30px 15px 35px;}
+    .quote h3{background: none;padding-right: 37px;}
+    .quote p{text-align: left;padding-right: 0;font-size: 14px;}
+    .foot{padding: 0;}
+    .foot .margin-20{margin: 30px 0 20px;}
+}
+@media (max-width: 480px) {
+    .carousel-control{top:40%;}
+    #myCarousel a{width: 28px;height: 27px;background-size: 57px auto}
+    #myCarousel .carousel-control.right{background-position: -27px;}
+    body{padding:40px 20px 0;}
+    .box .logo{display: block;}
+    .header .logo-img{display:none;}
+    .header .banner{display: none;}
+    .header nav{display: none;}
+    .header .select{display:block;}
+    .welcome{width: 90%;}
+    .welcome h2 .text{font-size:22px;}
+    .welcome h2 .line,.rooms h2 .line{display:none;}
+    .about h2 .line{display:block;width: 40px;}
+    .content>.about,.content>.rooms{margin-top: 100px;}
+    .welcome button{display: block;width: auto;margin: 0 auto 20px;}
+    .rooms-content .row{text-align: center;}
+    .rooms-content img{display: inline-block;}
+    .rooms-content h3{margin-top: 20px;}
+    .s1-hide{display: none;}
+    .s2-hide{display: none;}
+    .image-zone-1,.image-zone-2{padding: 0;}
+    .image-zone-1 .row p,.image-zone-2 .row p{margin-bottom: 20px;}
+    .quote{padding: 30px 15px 35px;}
+    .quote h3{background: none;padding: 0 10px;font-size:17px;}
+    .quote p{text-align: left;padding-right: 0;font-size: 13px;}
+    .foot{padding: 0;}
+    .foot .margin-20{margin: 30px 0 20px;}
+}
+
+
+
+
+
+
+
+
+
+
