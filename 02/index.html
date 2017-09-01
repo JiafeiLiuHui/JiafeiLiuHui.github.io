@@ -229,14 +229,17 @@
     $(function () {
         $(".contact form input").keyup(function () {
             var length=$(this).siblings("span").length;
+            var value=$(this).val();
             if(length==0){
             var pl=$(this).attr("placeholder");
             var span="<span>"+pl+"</span>";
             var $span=$(span);
             $span.appendTo($(this).parent());
-            $span.animate({top:"-20px",opacity:1},300);}
-            var value=$(this).val();
-            if(value==""){
+            if(value!=""){
+                $span.animate({top:"-20px",opacity:1},300);}
+            }
+            if(value=="")
+            {
                 $(this).siblings("span").animate({top:"15px",opacity:0},function () {
                     $(this).remove();
                 })
@@ -245,13 +248,13 @@
             $(".contact form span").css("color","#aaa");
         }).focus(function () {
             $(this).siblings("span").css("color","mediumvioletred");
-        })
+        });
 
         $(".fa-lg").hover(function () {
             $(this).parent().css("background-color","#fff");
         },function () {
             $(this).parent().css("background-color","#aaa");
-        })
+        });
 
         $("[href='#cont']").click(function () {
             var height=$("#cont").offset().top;
