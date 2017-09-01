@@ -230,13 +230,12 @@
         $(".contact form input").keyup(function () {
             var length=$(this).siblings("span").length;
             var value=$(this).val();
-            if(length==0){
+            if(length==0 && value !=""){
             var pl=$(this).attr("placeholder");
             var span="<span>"+pl+"</span>";
             var $span=$(span);
             $span.appendTo($(this).parent());
-            if(value!=""){
-                $span.animate({top:"-20px",opacity:1},300);}
+            $span.animate({top:"-20px",opacity:1},300);
             }
             if(value=="")
             {
